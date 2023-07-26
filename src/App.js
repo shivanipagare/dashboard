@@ -23,7 +23,7 @@ function App() {
       </div>
       <div style={{marginLeft:"400px"}}>
         <Routes>
-          <Route path="/pages/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/pages/banking" element={<Banking />} />
           <Route path="/pages/product" element={<Product />} />
           <Route path="/pages/rating" element={<Rating />} />

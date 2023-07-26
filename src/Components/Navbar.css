@@ -20,7 +20,7 @@ font-weight: 900;
 
 
 .card {
-  width: 350px;
+  
   background-color: #efefef;
   border: none;
   cursor: pointer;
@@ -36,9 +36,9 @@ font-weight: 900;
 }
 
 .btn {
-  height: 140px;
+  height: 40px;
   width: 140px;
-  border-radius: 50%
+ 
 }
 
 .name {

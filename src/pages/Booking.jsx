@@ -30,38 +30,42 @@ const Booking = () => {
   <div class="row mb-4">
     <div class="col">
       <Form class="form-outline">
-        <Form.Control type="text" id="form6Example1" class="form-control" />
+      
         <Form.Label class="form-label" for="form6Example1">First name</Form.Label>
+        <Form.Control type="text" id="form6Example1" class="form-control" />
       </Form>
     </div>
     <div class="col">
     <Form class="form-outline">
-        <Form.Control type="text" id="form6Example1" class="form-control" />
+        
         <Form.Label class="form-label" for="form6Example1">Second name</Form.Label>
+        <Form.Control type="text" id="form6Example1" class="form-control" />
       </Form>
     </div>
   </div>
 
   
   <Form class="form-outline mb-4">
-    <Form.Control type="text" id="form6Example3" class="form-control" />
     <Form.Label class="form-label" for="form6Example3">Company name</Form.Label>
+    <Form.Control type="text" id="form6Example3" class="form-control" />
   </Form>
 
   
   <Form class="form-outline mb-4">
-    <Form.Control type="text" id="form6Example3" class="form-control" />
+    
     <Form.Label class="form-label" for="form6Example3">Address</Form.Label>
+    <Form.Control type="text" id="form6Example3" class="form-control" />
   </Form>
 
  
   <Form class="form-outline mb-4">
-    <Form.Control type="email" id="form6Example5" class="form-control" />
+    
     <Form.Label class="form-label" for="form6Example5">Email</Form.Label>
+    <Form.Control type="email" id="form6Example5" class="form-control" />
   </Form>
 
 
-  <Button type="submit" class="btn btn-primary btn-block mb-4">place Order</Button>
+  <Button type="submit" class="btn btn-primary btn-block mb-4 mt-4">place Order</Button>
 </form>
     </TabPanel>
     <TabPanel>
